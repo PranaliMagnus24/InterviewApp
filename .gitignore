@@ -1,0 +1,47 @@
+# Dependencies
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+php_errors.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+
+# Cache directories
+cache/
+*.cache
+
+# Database
+*.sqlite
+*.db
+
+# Composer
+composer.lock
