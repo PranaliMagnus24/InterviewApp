@@ -1,5 +1,4 @@
 <?php
-// Determine the correct path to include files
 $currentDir = dirname(__FILE__);
 require_once $currentDir . '/../config/Database.php';
 require_once $currentDir . '/../models/Interviewer.php';

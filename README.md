@@ -41,19 +41,17 @@ Interview-Web-App/
 
 ## Installation
 
-1. **Clone or download the project** to your local server (e.g., XAMPP, WAMP, Laragon).
 
-2. **Create database**:
+1. **Create database**:
    - Import `database.sql` into MySQL
-   - Or run the SQL commands manually
 
-3. **Database configuration**:
-   - Edit `config/Database.php` if your database credentials are different
+2. **Database configuration**:
+   - Edit `config/Database.php` 
 
-4. **Upload directory permissions**:
+3. **Upload directory permissions**:
    - Ensure `uploads/` directory is writable
 
-5. **Run the application**:
+4. **Run the application**:
    - Access the interviewer registration page at `http://localhost/Interview-Web-App/`
    - Admin login at `http://localhost/Interview-Web-App/admin/login.php`
 
@@ -94,19 +92,6 @@ All API endpoints return JSON responses.
 
 A Postman collection with all API endpoints is available in `Interview-Web-App.postman_collection.json`.
 
-## Form Data for Create Interviewer API
-
-When testing the Create Interviewer API with Postman, use `form-data` with the following fields:
-
-```
-name: John
-phone: 1234567890
-email: john@gmail.com
-address: Nashik
-qualification: MCA
-experience: 2
-resume: [file]
-```
 
 ## File Upload Restrictions
 
@@ -137,6 +122,16 @@ resume: [file]
 6. User roles and permissions
 7. Audit log for admin actions
 
-## Support
+## Screenshots
 
-For any issues or questions, please contact the developer.
+### Interviewer Registration Page
+![Interviewer Registration Page](interview registration.png)
+
+### Admin Login Page
+![Admin Login Page](admin login.png)
+
+### Admin Dashboard
+![Admin Dashboard](admin dashboard.png)
+
+### Interviewers Management Page
+![Interviewers Management Page](interviewers dashboard.png)
