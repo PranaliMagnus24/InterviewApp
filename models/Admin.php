@@ -29,7 +29,7 @@ class Admin {
         return false;
     }
 
-    // Get admin details
+    // Get admin detail
     public function getAdmin() {
         $query = "SELECT id, email FROM " . $this->table_name . " WHERE id = ? LIMIT 0,1";
         

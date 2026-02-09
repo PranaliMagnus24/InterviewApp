@@ -137,7 +137,7 @@ class Interviewer {
         return false;
     }
 
-    // Verify interviewer
+    // Verify interviewer 
     public function verify() {
         $query = "UPDATE " . $this->table_name . " SET verified=1 WHERE id=:id";
         

@@ -1,4 +1,5 @@
 <?php
+///Database connection
 class Database {
     private $host = "localhost";
     private $db_name = "interview_app";

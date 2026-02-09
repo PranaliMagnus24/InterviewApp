@@ -90,7 +90,6 @@ switch ($method) {
         break;
 }
 
-// Send JSON response if we have one
 if ($response !== null && !headers_sent()) {
     header('Content-Type: application/json');
     echo json_encode($response);
